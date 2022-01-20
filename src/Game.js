@@ -42,9 +42,7 @@ function Game() {
 
       //diagonal
       [board[0], board[4], board[8]],
-      [board[2], board[4], board[6]],
-      [board[6], board[4], board[2]],
-      [board[8], board[4], board[0]]
+      [board[2], board[4], board[6]]
     ]
 
     possibleToWin.forEach(cells => {
